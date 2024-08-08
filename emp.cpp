@@ -1,4 +1,4 @@
-/* Project on Employee Management System */
+/* Project on Employee Management System to store records of employees in an organization */
 
 #include <iostream>
 #include <fstream>
@@ -177,7 +177,7 @@ int main()
         cout << "\n\t\t\t\t[7] Exit from the program";
         cout << "\n\t\t\t\t============================================";
         cout << "\n\t\t\t\tEnter your choice (1-7): ";
-        choice = getValidInt("your choice"); // Get valid integer input for choice
+        choice = getValidInt("your choice (1-7)"); // Get valid integer input for choice
 
         switch (choice) 
 		{
